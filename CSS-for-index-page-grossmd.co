@@ -1,0 +1,5 @@
+p {
+	font-family: Sans-serif;
+	color: #151d45;
+	font-weight: bold;
+}
