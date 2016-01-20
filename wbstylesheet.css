@@ -4,6 +4,11 @@ body {
 	/*use this until a background texture is found*/
 }
 
+.title {
+	font-size: 30px !important;
+	background-color: #00ACC8 !important;
+}
+
 #navbar {
 	text-align: center;
 }
