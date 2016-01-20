@@ -16,6 +16,7 @@ body {
 	display: inline;
 	border: none;
 	color: #151d45;
+	padding: 5px;
 	border-radius: 1px;
 	background-color: #f6f39e;
 	font-size: 1.2em;
@@ -34,3 +35,15 @@ body {
 }
 
 /*add an "active class" to current link to let the user know where they're at on the page.*/
+p {
+	font-family: Raleway, Sans-serif;
+	color: #151d45;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+	clear: both;
+}
+
+
+
+
