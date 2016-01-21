@@ -1,0 +1,57 @@
+/*css for first mock up of artist site. 01/19/16. Header.*/
+body {
+	background-color: #fdfdfb;
+	/*use this until a background texture is found*/
+}
+
+.title {
+	font-size: 30px !important;
+	background-color: #00ACC8 !important;
+}
+
+#navbar {
+	text-align: center;
+}
+
+#navbar ul {
+}
+
+#navbar li {
+	/*note-float left takes away spacing between #navbar boxes on site*/
+	display: inline;
+	border: none;
+	color: #151d45;
+	padding: 5px;
+	border-radius: 1px;
+	background-color: #f6f39e;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: Raleway, Sans-serif;
+	box-shadow: 10px 10px 5px #888888; 
+}
+
+#navbar li a {
+	text-decoration: none;
+	color: #151d45;
+}
+
+#navbar li a:hover {
+	color: #c80047;
+}
+
+/*add an "active class" to current link to let the user know where they're at on the page.*/
+p {
+	font-family: Raleway, Sans-serif;
+	color: #151d45;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+	clear: both;
+}
+ 
+ .active {
+ 	background-color: #8ee398 !important;
+ }
+
+
+
