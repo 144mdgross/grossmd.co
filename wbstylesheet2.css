@@ -1,12 +1,16 @@
-/*css for first mock up of artist site. 01/19/16. Header.*/
+/*css for second mock up of artist site. 02/14/16.*/
 body {
-	background-color: #fdfdfb;
+	background-color: #fff; 
+background-image: 
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
 	/*use this until a background texture is found*/
 }
 
 .title {
 	font-size: 30px !important;
-	background-color: #00ACC8 !important;
+	background-color: #A6F8FF !important;
 }
 
 #navbar {
@@ -20,10 +24,10 @@ body {
 	/*note-float left takes away spacing between #navbar boxes on site*/
 	display: inline;
 	border: none;
-	color: #151d45;
+	color: #3F0017;
 	padding: 5px;
-	border-radius: 1px;
-	background-color: #f6f39e;
+	border-radius: 100px;
+	background-image: url ("http://photoshoptextures.com/wood-textures/stump-ring-texture.jpg");
 	font-size: 1.2em;
 	font-weight: bold;
 	font-family: Raleway, Sans-serif;
@@ -32,17 +36,17 @@ body {
 
 #navbar li a {
 	text-decoration: none;
-	color: #151d45;
+	color: #3F0017;
 }
 
 #navbar li a:hover {
-	color: #c11119;
+	color: #790225;
 }
 
 /*add an "active class" to current link to let the user know where they're at on the page.*/
 p {
 	font-family: Raleway, Sans-serif;
-	color: #151d45;
+	color: #790225;
 	font-weight: bold;
 	font-size: 45px;
 	text-align: center;
@@ -50,7 +54,7 @@ p {
 }
  
  .active {
- 	background-color: #8ee398 !important;
+ 	background-color: #A6F8FF !important;
  }
 
 
