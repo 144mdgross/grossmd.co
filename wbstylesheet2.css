@@ -2,8 +2,8 @@
 body {
 	background-color: #fff; 
 background-image: 
-linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-linear-gradient(#eee .1em, transparent .1em);
+linear-gradient(90deg, transparent 79px, #901414 79px, #901414 81px, transparent 81px),
+linear-gradient(#518696 .1em, transparent .1em);
 background-size: 100% 1.2em;
 	/*use this until a background texture is found*/
 }
@@ -48,7 +48,7 @@ p {
 	font-family: Raleway, Sans-serif;
 	color: #790225;
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 3em;
 	text-align: center;
 	clear: both;
 }
@@ -56,6 +56,7 @@ p {
  .active {
  	background-color: #A6F8FF !important;
  }
-
+/*work on adding html and css to do a grid layout for photos next. (2/14/16). Portfoliohtml 
+already has the beginning of a table set-up with a class called "grid"*/
 
 
